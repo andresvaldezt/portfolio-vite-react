@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant light (&:where(.light, .light *));
+
 * {
   box-sizing: border-box;
 }
@@ -32,7 +34,6 @@
 
 body {
   font-family: system-ui;
-  background-color: var(--background);
   color: var(--text-primary);
   min-height: 100vh;
   display: flex;
@@ -42,7 +43,6 @@ body {
 
 .port-header{
   border-bottom: 1px solid var(--border);
-  background: var(--background);
   padding: 1rem 0rem;
   display: flex;
   align-items: center;
@@ -52,7 +52,6 @@ body {
   h2 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--text-primary);
   }
 }
 
@@ -65,9 +64,8 @@ body {
   gap: 0.5rem;
 
   svg {
-    width: 2rem;
-    height: 2rem;
-    color: var(--text-primary);
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
@@ -77,11 +75,8 @@ nav {
   display: flex;
 
   a {
-    text-decoration: none;
-    color: var(--text-secondary);
     transition: color 0.2s;
     font-weight: 500;
-
     &:hover, &:focus {
       outline: none;
     }

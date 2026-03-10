@@ -1,26 +1,27 @@
-import { IconCodeCircle2Filled, IconMoonStars } from '@tabler/icons-react';
+import { IconCodeCircle2, IconMoonStars, IconSun  } from '@tabler/icons-react';
+import { useState } from 'react';
 
 export function Header(){
 
     return(
-        <header className="port-header shadow-lg/10 shadow-white">
+        <header className="port-header shadow-lg/10 shadow-white light:shadow-gray-800 text-white light:text-black">
             <div className='flex justify-between items-center px-6 w-full max-w-7xl mx-auto'>
                 <div>
-                    <a href="/" style={{textDecoration: 'none'}}>
-                        <h1 className="port-header-icon text-xl font-semibold" style={{color: 'white'}}>
-                            <IconCodeCircle2Filled />
+                    <a href="/" className='no-underline'>
+                        <h1 className="port-header-icon text-xl font-semibold">
+                            <IconCodeCircle2 stroke={2}/>
                             Andrés Valdez
                         </h1>
                     </a>
                 </div>
                 <div>
-                    <nav className='hidden lg:flex items-center ms-auto'>
+                    <nav className='hidden lg:flex items-center ms-auto no-underline'>
                         <a className='rounded-md px-3 py-2 font-medium hover:bg-gray-700 hover:text-white' href="/">About</a>
                         <a className='rounded-md px-3 py-2 font-medium hover:bg-gray-700 hover:text-white' href="/">Work Experience</a>
                         <a className='rounded-md px-3 py-2 font-medium hover:bg-gray-700 hover:text-white' href="/">Projects</a>
                         <a className='rounded-md px-3 py-2 font-medium hover:bg-gray-700 hover:text-white' href="/">Resume</a>
                         |
-                        <HeaderUserButton></HeaderUserButton>
+                        <ThemeButton></ThemeButton>
                     </nav>
                 </div>
             </div>
@@ -28,11 +29,18 @@ export function Header(){
     )
 }
 
-const HeaderUserButton = () => {
+const ThemeButton = () => {
+    const [theme, setTheme] = useState('dark')
+
+    const toggleTheme = () =>{
+        const newTheme = theme === "dark" ? "light" : "dark"
+        setTheme(newTheme)
+        document.documentElement.classList.toggle("light", newTheme === "light")
+    }
 
     return(
-        <button className="dark-mode rounded-md px-3 py-2 font-medium hover:bg-gray-700 hover:text-white'">
-            <IconMoonStars stroke={2} />
+        <button onClick={toggleTheme} className="rounded-full p-2 shadow-lg/30 hover:shadow-lg/50 shadow-amber-100 hover:shadow-amber-400 hover:text-amber-400 light:shadow-gray-400 light:text-black light:hover:shadow-purple-400 cursor-pointer light:hover:text-purple-400 transition-all ease-in-out">
+            {theme === 'dark' ? <IconSun stroke={2} /> : <IconMoonStars stroke={2} />}
         </button>
     ) 
 }
