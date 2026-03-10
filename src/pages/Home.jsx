@@ -3,15 +3,15 @@ import flag  from '../assets/Flag_of_Mexico.svg.png';
 
 export default function HomePage (){
     return (
-    <main className="index-main">
+    <main className="index-main" >
         <div className="flex flex-col gap-12 mx-auto px-4 py-6 sm:px-6 md:px-8 max-w-7xl">
             <section className="port-about flex flex-wrap lg:gap-6 pb-8">
-                <div className="flex-none lg:w-8/12 w-full">
+                <div className="flex-none lg:w-8/12 w-full light:text-black">
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
                         <IconUserCircle stroke={2} size={48}/>
                         About Me
                     </h2>
-                    <p className='mb-4'>
+                    <p className='mb-4 light:text-black'>
                         Computer Science Engineering graduate from Universidad Politécnica de Sinaloa with a deep passion for the IT ecosystem. I am particularly fascinated by web programming and the continuous evolution of modern Front-End technologies.
                     </p>
                     <p>
@@ -61,16 +61,16 @@ export default function HomePage (){
             </section>
             <section className='work-experience'>
                 <header>
-                    <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
+                    <h2 className="flex items-center gap-2 text-4xl font-bold mb-4 text-amber-50 light:text-gray-700">
                         <IconBriefcase stroke={2} size={48}/>
                         Work Experience
                     </h2>
                 </header>
-                <div className='job grow flex flex-col rounded-md px-3 py-2 mb-6 bg-gray-700'>
-                    <h5 className='font-medium text-lg sm:text-xl dark:text-slate-100 text-slate-700'>UI Developer at e-Quality and TCS: HERBALIFE (Consultant) </h5>
-                    <p className='dark:text-slate-300 text-gray-700'>Guadalajara, Mexico</p>
-                    <p className='dark:text-slate-400 text-gray-500'>April 2020 – June 2025</p>
-                    <ul className='dark:text-slate-100 text-slate-700 list-disc ms-5'>
+                <div className='job grow flex flex-col rounded-md px-3 py-2 mb-6 light:bg-amber-50 bg-gray-700'>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>UI Developer at e-Quality and TCS: HERBALIFE (Consultant) </h5>
+                    <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
+                    <p className='light:text-gray-500 text-slate-400'>April 2020 – June 2025</p>
+                    <ul className='light:text-slate-700 text-slate-100 list-disc ms-5'>
                         <li>I was part of the Root team for myHerbalife site e-commerce platform for independent distributors. As UI developer I was involved in multiple developments, supporting tools and content for more than 100 countries:</li>
                         <li>Internal tool development for myHerbilife site to register development working sessions helping to manage control versions through multiple development environments.</li>
                         <li>Continuous updates for all the content: menus, banners, widgets… depending on the requirements for every country.</li>
