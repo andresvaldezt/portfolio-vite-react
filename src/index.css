@@ -47,7 +47,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
 
   h2 {
     font-size: 1.25rem;
@@ -73,16 +72,4 @@ nav {
   align-items: center;
   gap: 1rem;
   display: flex;
-
-  a {
-    transition: color 0.2s;
-    font-weight: 500;
-    &:hover, &:focus {
-      outline: none;
-    }
-  }
-}
-
-.port-about{
-  border-bottom: 1px solid var(--border);
 }
