@@ -2,10 +2,12 @@ import { IconUserCircle, IconMapPin, IconMail, IconLanguage, IconBrandGithub, Ic
 import flag  from '../assets/Flag_of_Mexico.svg.png'; 
 
 export default function HomePage (){
+    const linkStyles = 'rounded-full p-1 font-medium hover:shadow-lg/30 shadow-white hover:text-amber-400 light:hover:shadow-lg/30 light:shadow-black light:hover:text-purple-400 transition-all ease-in-out'
+
     return (
     <main className="index-main" >
         <div className="flex flex-col gap-12 mx-auto px-4 py-6 sm:px-6 md:px-8 max-w-7xl">
-            <section className="port-about flex flex-wrap lg:gap-6 pb-8">
+            <section className="port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
                 <div className="flex-none lg:w-8/12 w-full light:text-black">
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
                         <IconUserCircle stroke={2} size={48}/>
@@ -21,12 +23,12 @@ export default function HomePage (){
                         Socials
                     </h5>
                     <div className='flex flex-row items-center gap-2'>
-                        <IconBrandGithub stroke={2} size={32}/>
-                        <IconBrandLinkedin stroke={2} size={32}/>
-                        <IconBrandInstagram stroke={2} size={36}/>
+                        <a href="/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
+                        <a href="/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
+                        <a href="/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>
                     </div>
                 </div>
-                <div className='grow flex flex-col gap-6 rounded-md px-3 py-2 font-medium bg-gray-700'>
+                <div className='grow flex flex-col gap-6 rounded-md px-3 py-2 font-medium bg-black light:bg-white light:text-black light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
                     <div className='flex flex-col gap-2'>
                         <h5 className="text-2xl font-bold flex items-center gap-2">
                             <IconMapPin stroke={2} />
@@ -43,7 +45,7 @@ export default function HomePage (){
                             Email
                         </h5>
                         <p className='flex items-center gap-2'>
-                            <a className="underline dark:text-slate-200 dark:hover:text-slate-300 text-slate-700 hover:text-slate-900" href="mailto:andresvaldezt@gmail.com">
+                            <a className="underline light:text-gray-700 text-slate-200 light:hover:text-slate-900 hover:text-slate-300 " href="mailto:andresvaldezt@gmail.com">
                                 andresvaldezt@gmail.com
                             </a>
                         </p>
@@ -66,7 +68,7 @@ export default function HomePage (){
                         Work Experience
                     </h2>
                 </header>
-                <div className='job grow flex flex-col rounded-md px-3 py-2 mb-6 light:bg-amber-50 bg-gray-700'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
                     <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>UI Developer at e-Quality and TCS: HERBALIFE (Consultant) </h5>
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>April 2020 – June 2025</p>

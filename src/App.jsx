@@ -9,7 +9,7 @@ const NotFoundPage = lazy(() => import('./pages/404.jsx'))
 function App() {
 
   return (
-    <main className='bg-black light:bg-amber-50'>
+    <main className='bg-gray-950 light:bg-amber-50'>
       <Header></Header>
       <Routes>
         <Route path="/" element={ <HomePage/> } />
