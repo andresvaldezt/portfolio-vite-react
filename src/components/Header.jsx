@@ -1,5 +1,5 @@
 import { IconCodeCircle2, IconMoonStars, IconSun  } from '@tabler/icons-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function Header(){
     const linkStyles = 'rounded-md px-3 py-2 font-medium hover:shadow-lg/30 shadow-white hover:text-amber-400 light:hover:shadow-lg/30 light:shadow-black light:hover:text-purple-400 transition-all ease-in-out'
@@ -37,7 +37,16 @@ const ThemeButton = () => {
         const newTheme = theme === "dark" ? "light" : "dark"
         setTheme(newTheme)
         document.documentElement.classList.toggle("light", newTheme === "light")
+        localStorage.setItem('theme', newTheme)
     }
+
+    useEffect(() => {
+        const storedTheme = localStorage.getItem('theme') || "dark"
+        if (storedTheme) {
+            setTheme(storedTheme)
+            document.documentElement.classList.toggle("light", storedTheme === "light")
+        }
+    }, [])
 
     return(
         <button onClick={toggleTheme} className="rounded-full p-2  shadow-lg/30 hover:shadow-lg/50 shadow-amber-100 hover:shadow-amber-400 hover:text-amber-400 light:shadow-gray-400 light:text-black light:hover:shadow-purple-400 cursor-pointer light:hover:text-purple-400 transition-all ease-in-out">
