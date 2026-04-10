@@ -25,9 +25,9 @@ export default function HomePage (){
                         Socials
                     </h5>
                     <div className='flex flex-row items-center gap-2 mb-4 lg:sm:mb-0 sm:mb-4 md:mb-4'>
-                        <a href="/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
-                        <a href="/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
-                        <a href="/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>
+                        <a href="https://github.com/andresvaldezt/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
+                        <a href="https://www.linkedin.com/in/andresvaldeztirado/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
+                        <a href="https://www.instagram.com/antrick_/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>
                     </div>
                 </div>
                 <div className='grow flex flex-col gap-6 rounded-md px-3 py-2 font-medium bg-black light:bg-white light:text-black light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>

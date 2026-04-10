@@ -1,9 +1,11 @@
 import { IconCodeCircle2, IconMoonStars, IconMenu2, IconSun  } from '@tabler/icons-react';
 import { useTheme } from '../context/Themecontext';
 import { navbarLinks } from '../data/navbarLinks';
+import { useState } from 'react';
 
 export function Header(){
-    const linkStyles = 'rounded-md px-3 py-2 font-medium hover:shadow-lg/30 shadow-white hover:text-amber-400 light:hover:shadow-lg/30 light:shadow-black light:hover:text-purple-400 transition-all ease-in-out'
+    const linkStyles = 'rounded-md px-3 py-2 font-medium hover:shadow-lg/30 shadow-white hover:text-amber-400 light:hover:shadow-lg/30 light:shadow-black light:hover:text-purple-400'
+    const [open, setOpen] = useState(false)
 
     return(
         <nav className="px-2 py-4 port-header sticky top-0 z-50 mb-10 sm:flex sm:items-center sm:justify-between shadow-lg/10 bg-black light:bg-white shadow-white light:shadow-black text-white light:text-black">
@@ -15,7 +17,7 @@ export function Header(){
                     </h1>
                 </a>
                 <section className='sm:hidden flex gap-4'>
-                    <button>
+                    <button onClick={() => setOpen(!open)}>
                         <IconMenu2 stroke={2} />
                     </button>
                     <ThemeButton></ThemeButton>
@@ -23,8 +25,13 @@ export function Header(){
                 
             </section>
             <section className='flex flex-col items-start sm:flex-row sm:items-center'>
-                <div>
-                    <ul className='flex flex-col items-start no-underline my-4 gap-2 sm:flex-row sm:m-0'>
+                <div className={`w-full sm:w-auto sm:max-h-none sm:overflow-visible overflow-hidden transition-all duration-500 ${!open ? 'max-h-0 sm:max-h-none' : 'max-h-96'}`}>
+                    <ul className={`
+                        flex flex-col items-start no-underline gap-2
+                        sm:flex sm:flex-row sm:opacity-100 sm:translate-y-0 sm:my-0
+                        transform transition-all duration-500 ease-out origin-top
+                        ${!open ? 'opacity-0 -translate-y-4 my-0' : 'opacity-100 translate-y-0 my-4'} 
+                    `}>
                         {
                             navbarLinks.map((item) => (
                                 <li key={item.id}>
