@@ -24,7 +24,7 @@ export default function HomePage (){
                     <h5 className="text-2xl font-bold flex items-center gap-2 mb-4 mt-4">
                         Socials
                     </h5>
-                    <div className='flex flex-row items-center gap-2'>
+                    <div className='flex flex-row items-center gap-2 mb-4 lg:sm:mb-0 sm:mb-4 md:mb-4'>
                         <a href="/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
                         <a href="/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
                         <a href="/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>

@@ -28,11 +28,11 @@ export function JobExperience(){
                         <li>Support Bug problem solving for new Herbalife project using React and microservices architecture.</li>
                     </ul>
                 </div>
-                <div className='job grow flex flex-col rounded-md px-3 py-2 mb-6 bg-gray-700'>
-                    <h5 className='font-medium text-lg sm:text-xl dark:text-slate-100 text-slate-700'>Full Stack Developer at HALLMG CONSULTING</h5>
-                    <p className='dark:text-slate-300 text-gray-700'>Guadalajara, Mexico</p>
-                    <p className='dark:text-slate-400 text-gray-500'>May 2018 – April 2020</p>
-                    <ul className='dark:text-slate-100 text-slate-700 list-disc ms-5'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Full Stack Developer at HALLMG CONSULTING</h5>
+                    <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
+                    <p className='light:text-gray-500 text-slate-400'>May 2018 – April 2020</p>
+                    <ul className='light:text-slate-700 text-slate-100 list-disc ms-5'>
                         <li>As part of the Development team I collaborated on multiple web projects, all oriented to web systems for Human resources tools for more than 10 companies with different business orientations like education, real state, pharmaceutical, energy and others.</li>
                         <li>Setting up new web development projects using Laravel, Laravel Mix (Webpack), PHP, MySQL, Git and cPanel/Plesk.</li>
                         <li>Implement web designs through programming languages like HTML, CSS, JavaScript, also frameworks and libraries like Bootstrap and jQuery.</li>
@@ -44,11 +44,11 @@ export function JobExperience(){
                         <li>Package installation via NPM (Node Package Manager) and implementation.</li>
                     </ul>
                 </div>
-                <div className='job grow flex flex-col rounded-md px-3 py-2 mb-6 bg-gray-700'>
-                    <h5 className='font-medium text-lg sm:text-xl dark:text-slate-100 text-slate-700'>Web Developer at TATA CONSULTANCY SERVICES (General Electric)  </h5>
-                    <p className='dark:text-slate-300 text-gray-700'>Guadalajara, Mexico</p>
-                    <p className='dark:text-slate-400 text-gray-500'>April 2015 – December 2017</p>
-                    <ul className='dark:text-slate-100 text-slate-700 list-disc ms-5'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Web Developer at TATA CONSULTANCY SERVICES (General Electric)  </h5>
+                    <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
+                    <p className='light:text-gray-500 text-slate-400'>April 2015 – December 2017</p>
+                    <ul className='light:text-slate-700 text-slate-100 list-disc ms-5'>
                         <li>Development, maintenance and content administration for web communities and web tools working with Support Central CMS/API’s and entire custom developments.</li>
                         <li>Meetings with the customer three times per week to take notes and analyze requirements, timelines and risks for future developments; keep the customer updated on the current developments and maintenance activities for web communities, tools, forms and databases.</li>
                         <li>Write documentation and support users on how to use data report control tools.</li>
