@@ -2,14 +2,14 @@ import { IconBriefcase } from '@tabler/icons-react';
 
 export function JobExperience(){
     return(
-            <section className='work-experience'>
+            <section className='work-experience mb-4 pb-4 border-b light:border-b-gray-700/20 border-b-amber-50/20'>
                 <header>
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4 text-amber-50 light:text-gray-700">
                         <IconBriefcase stroke={2} size={48}/>
                         Work Experience
                     </h2>
                 </header>
-                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]'>
                     <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>UI Developer at e-Quality and TCS: HERBALIFE (Consultant) </h5>
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>April 2020 – June 2025</p>
@@ -28,7 +28,7 @@ export function JobExperience(){
                         <li>Support Bug problem solving for new Herbalife project using React and microservices architecture.</li>
                     </ul>
                 </div>
-                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]'>
                     <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Full Stack Developer at HALLMG CONSULTING</h5>
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>May 2018 – April 2020</p>
@@ -44,7 +44,7 @@ export function JobExperience(){
                         <li>Package installation via NPM (Node Package Manager) and implementation.</li>
                     </ul>
                 </div>
-                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-black light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]'>
                     <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Web Developer at TATA CONSULTANCY SERVICES (General Electric)  </h5>
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>April 2015 – December 2017</p>

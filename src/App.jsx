@@ -11,7 +11,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <main className='bg-gray-950 light:bg-amber-50'>
+      <main className='bg-gray-800 light:bg-amber-50'>
         <Header></Header>
         <Routes>
           <Route path="/" element={ <HomePage/> } />

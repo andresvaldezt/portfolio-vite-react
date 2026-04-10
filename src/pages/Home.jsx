@@ -1,4 +1,4 @@
-import { IconUserCircle, IconMapPin, IconMail, IconLanguage, IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBriefcase  } from '@tabler/icons-react';
+import { IconSchool, IconUserCircle, IconMapPin, IconMail, IconLanguage, IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBriefcase  } from '@tabler/icons-react';
 import flag  from '../assets/Flag_of_Mexico.svg.png'; 
 import {JobExperience} from '../components/JobExperience';
 
@@ -21,16 +21,23 @@ export default function HomePage (){
                     <p>
                         As an aspiring Front-End Developer, I possess a strong foundation in JavaScript (ES6+) and an extensive focus on the React ecosystem. I am dedicated to building responsive, high-performance web experiences while staying at the forefront of UI/UX trends and industry best practices.
                     </p>
+                    <h3 className="flex items-center gap-2 text-2xl font-bold my-4">
+                        <IconSchool stroke={2} size={32}/>
+                        Education
+                    </h3>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Computer Science Engineering at Universidad Politécnica de Sinaloa</h5>
+                    <p className='light:text-gray-700 text-slate-300'>Sinaloa, Mexico</p>
+                    <p className='light:text-gray-500 text-slate-400'>2010 – 2014</p>
                     <h5 className="text-2xl font-bold flex items-center gap-2 mb-4 mt-4">
                         Socials
                     </h5>
                     <div className='flex flex-row items-center gap-2 mb-4 lg:sm:mb-0 sm:mb-4 md:mb-4'>
-                        <a href="https://github.com/andresvaldezt/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
-                        <a href="https://www.linkedin.com/in/andresvaldeztirado/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
-                        <a href="https://www.instagram.com/antrick_/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>
+                        <a target="_blank" href="https://github.com/andresvaldezt/" className={linkStyles}><IconBrandGithub stroke={2} size={32}/></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/andresvaldeztirado/" className={linkStyles}><IconBrandLinkedin stroke={2} size={32}/></a>
+                        <a target="_blank" href="https://www.instagram.com/antrick_/" className={linkStyles}><IconBrandInstagram stroke={2} size={36}/></a>
                     </div>
                 </div>
-                <div className='grow flex flex-col gap-6 rounded-md px-3 py-2 font-medium bg-black light:bg-white light:text-black light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(247,247,247,0.2)]'>
+                <div className='grow self-start flex flex-col gap-6 rounded-md px-10 py-10 font-medium bg-gray-600 light:bg-white light:text-black light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]'>
                     <div className='flex flex-col gap-2'>
                         <h5 className="text-2xl font-bold flex items-center gap-2">
                             <IconMapPin stroke={2} />
@@ -48,7 +55,7 @@ export default function HomePage (){
                         </h5>
                         <p className='flex items-center gap-2'>
                             <a className="underline light:text-gray-700 text-slate-200 light:hover:text-slate-900 hover:text-slate-300 " href="mailto:andresvaldezt@gmail.com">
-                                andresvaldezt@gmail.com
+                                andres.valdez.t@gmail.com
                             </a>
                         </p>
                     </div>
