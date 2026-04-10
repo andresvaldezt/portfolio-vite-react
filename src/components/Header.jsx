@@ -1,5 +1,5 @@
 import { IconCodeCircle2, IconMoonStars, IconMenu2, IconSun  } from '@tabler/icons-react';
-import { useEffect, useState } from 'react';
+import { useTheme } from '../context/Themecontext';
 import { navbarLinks } from '../data/navbarLinks';
 
 export function Header(){
@@ -44,22 +44,7 @@ export function Header(){
 }
 
 const ThemeButton = () => {
-    const [theme, setTheme] = useState('dark')
-
-    const toggleTheme = () =>{
-        const newTheme = theme === "dark" ? "light" : "dark"
-        setTheme(newTheme)
-        document.documentElement.classList.toggle("light", newTheme === "light")
-        localStorage.setItem('theme', newTheme)
-    }
-
-    useEffect(() => {
-        const storedTheme = localStorage.getItem('theme') || "dark"
-        if (storedTheme) {
-            setTheme(storedTheme)
-            document.documentElement.classList.toggle("light", storedTheme === "light")
-        }
-    }, [])
+    const {theme, toggleTheme} = useTheme()
 
     return(
         <button onClick={toggleTheme} className="rounded-full p-2 shadow-lg/30 hover:shadow-lg/50 shadow-amber-100 hover:shadow-amber-400 hover:text-amber-400 light:shadow-gray-400 light:text-black light:hover:shadow-purple-400 cursor-pointer light:hover:text-purple-400 transition-all ease-in-out">
