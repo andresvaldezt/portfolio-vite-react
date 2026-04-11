@@ -36,7 +36,7 @@ export function Header(){
                         {
                             navbarLinks.map((item) => (
                                 <li key={item.id}>
-                                    <a className={linkStyles} href={item.url}>{item.title}</a>
+                                    <a className={linkStyles} href={item.url} {...(item.isExternal && { target: '_blank', rel: 'noopener noreferrer' })}>{item.title}</a>
                                 </li>
                             ))
                         }
