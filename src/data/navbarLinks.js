@@ -1,3 +1,5 @@
+import cvPDF from '../assets/cv.pdf'
+
 export const navbarLinks = [
     {
         id: 1,
@@ -17,7 +19,7 @@ export const navbarLinks = [
     {
         id: 4,
         title: "Resume",
-        url: "/public/CV_ANDRES VALDEZ TIRADO.pdf",
+        url: cvPDF,
         isExternal: true
     },
 ]
