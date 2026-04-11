@@ -11,7 +11,7 @@ export const navbarLinks = [
     },
     {
         id: 3,
-        title: "Projects",
+        title: "Skills",
         url: "#"
     },
     {
