@@ -8,7 +8,8 @@ export function Header(){
     const [open, setOpen] = useState(false)
 
     return(
-        <nav className="px-2 py-4 port-header sticky top-0 z-50 mb-10 sm:flex sm:items-center sm:justify-between shadow-lg/10 bg-gray-600 light:bg-white shadow-black light:shadow-black text-white light:text-black">
+        <nav className="px-2 py-4 port-header sticky top-0 z-50 mb-10 shadow-lg/10 bg-gray-600 light:bg-white shadow-black light:shadow-black text-white light:text-black">
+            <div className='sm:flex sm:items-center sm:justify-between max-w-7xl px-6 mx-auto'>
             <section className='flex justify-between'>
                 <a href="/" className='no-underline'>
                     <h1 className="port-header-icon text-xl font-semibold">
@@ -45,6 +46,7 @@ export function Header(){
                     <ThemeButton></ThemeButton>
                 </div> 
             </section>
+            </div>
         </nav>
     )
 }

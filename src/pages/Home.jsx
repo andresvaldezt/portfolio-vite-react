@@ -1,6 +1,7 @@
-import { IconSchool, IconUserCircle, IconMapPin, IconMail, IconLanguage, IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBriefcase  } from '@tabler/icons-react';
+import { IconSchool, IconId, IconMapPin, IconMail, IconLanguage, IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBriefcase  } from '@tabler/icons-react';
 import flag  from '../assets/Flag_of_Mexico.svg.png'; 
 import {JobExperience} from '../components/JobExperience';
+import { Skills } from '../components/Skills';
 
 
 export default function HomePage (){
@@ -12,7 +13,7 @@ export default function HomePage (){
             <section className="port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
                 <div className="flex-none lg:w-8/12 w-full light:text-black">
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
-                        <IconUserCircle stroke={2} size={48}/>
+                        <IconId stroke={2} size={48}/>
                         About Me
                     </h2>
                     <p className='mb-4 light:text-black'>
@@ -71,6 +72,7 @@ export default function HomePage (){
                 </div>
             </section>
             <JobExperience></JobExperience>
+            <Skills></Skills>
         </div>
     </main>
     )
