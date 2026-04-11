@@ -2,6 +2,12 @@
 
 @custom-variant light (&:where(.light, .light *));
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
+
 * {
   box-sizing: border-box;
 }

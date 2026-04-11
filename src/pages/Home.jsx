@@ -10,17 +10,21 @@ export default function HomePage (){
     return (
     <main className="index-main" >
         <div className="flex flex-col gap-12 mx-auto px-4 py-6 sm:px-6 md:px-8 max-w-7xl">
-            <section className="port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
+            <section id='about' className="scroll-mt-20 port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
                 <div className="flex-none lg:w-8/12 w-full light:text-black">
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
                         <IconId stroke={2} size={48}/>
                         About Me
                     </h2>
                     <p className='mb-4 light:text-black'>
-                        Computer Science Engineering graduate from Universidad Politécnica de Sinaloa with a deep passion for the IT ecosystem. I am particularly fascinated by web programming and the continuous evolution of modern Front-End technologies.
+                        Computer Science Engineering graduated from Universidad Politécnica de Sinaloa with a deep
+                        passion for the IT ecosystem. Proficient in TypeScript and JavaScript (ES6+) with a strong focus on
+                        the React ecosystem and modern frontend architectures.
                     </p>
                     <p>
-                        As an aspiring Front-End Developer, I possess a strong foundation in JavaScript (ES6+) and an extensive focus on the React ecosystem. I am dedicated to building responsive, high-performance web experiences while staying at the forefront of UI/UX trends and industry best practices.
+                        I am dedicated to building responsive,
+                        high-performance web experiences while staying at the forefront of UI/UX trends and industry best
+                        practices. I also have some practical experience with backend technologies.
                     </p>
                     <h3 className="flex items-center gap-2 text-2xl font-bold my-4">
                         <IconSchool stroke={2} size={32}/>

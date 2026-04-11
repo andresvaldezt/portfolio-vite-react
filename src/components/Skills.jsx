@@ -2,7 +2,7 @@ import * as Icons from '../utils/icons'
 
 export function Skills(){
     return(
-        <section className='work-experience mb-4 pb-4 border-b light:border-b-gray-700/20 border-b-amber-50/20'>
+        <section id='skills' className='scroll-mt-20 mb-4 pb-4 border-b light:border-b-gray-700/20 border-b-amber-50/20'>
             <header>
                 <h2 className="flex items-center gap-2 text-4xl font-bold mb-4 text-amber-50 light:text-gray-700">
                     <Icons.IconSettingsCode stroke={2} size={48}/>
@@ -10,7 +10,7 @@ export function Skills(){
                 </h2>
             </header>
             <main>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
                     <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
                         <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
                             <h5 className="text-1/4 sm:text-lg text-black">
@@ -170,6 +170,18 @@ export function Skills(){
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandCSharp stroke={2} />
                                     <span>Razor</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandVscode stroke={2} />
+                                    <span>VSCode</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandWindows stroke={2} />
+                                    <span>Windows</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconTerminal2 stroke={2} />
+                                    <span>Linux(basic command line)</span>
                                 </div>
                             </div>
                         </div>

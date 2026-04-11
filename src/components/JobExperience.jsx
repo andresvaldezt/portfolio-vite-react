@@ -2,7 +2,7 @@ import { IconBriefcase } from '@tabler/icons-react';
 
 export function JobExperience(){
     return(
-            <section className='work-experience pb-4 border-b light:border-b-gray-700/20 border-b-amber-50/20'>
+            <section id='experience' className='work-experience scroll-mt-20 pb-4 border-b light:border-b-gray-700/20 border-b-amber-50/20'>
                 <header>
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4 text-amber-50 light:text-gray-700">
                         <IconBriefcase stroke={2} size={48}/>
@@ -14,17 +14,16 @@ export function JobExperience(){
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>April 2020 – June 2025</p>
                     <ul className='light:text-slate-700 text-slate-100 list-disc ms-5'>
-                        <li>I was part of the Root team for myHerbalife site e-commerce platform for independent distributors. As UI developer I was involved in multiple developments, supporting tools and content for more than 100 countries:</li>
-                        <li>Internal tool development for myHerbilife site to register development working sessions helping to manage control versions through multiple development environments.</li>
-                        <li>Continuous updates for all the content: menus, banners, widgets… depending on the requirements for every country.</li>
+                        <li>I was part of the Root team for myHerbalife.com site e-commerce platform for independent distributors. As UI developer I was involved in multiple developments, supporting tools and content for more than 100 countries:</li>
+                        <li>Internal tool development for myHerbilife.com site to register development working sessions helping to manage control versions through multiple development environments.</li>
+                        <li>Ongoing updates to the homepage content, including menus, interactive banners, and widgets. Always prioritizing responsive design.</li>
                         <li>Continuous work with content, design, backend and business teams for new web tools and content design implementation.</li>
-                        <li>Widget implementation consuming internal APIs from all the different businesses involved in myHerbalife.com project, update support and maintenance.</li>
-                        <li>Responsive design implementation.</li>
+                        <li>Widget implementation consuming internal APIs from all the different businesses involved in myHerbalife.com project, development and maintenance.</li>
                         <li>Follow up any activity related to front-end development in multiple projects and solutions.</li>
                         <li>Estimate time and efforts for future tasks and developments.</li>
                         <li>Technical training for new team members.</li>
                         <li>Release version management using Azure services and working closely with DevOps team.</li>
-                        <li>Major style update for Register, Login and Profile styles of myHerbalife site, matching the styles of the Herbalife’s new future web platform.</li>
+                        <li>Major update for Register, Login and Profile styles of myHerbalife.com site, matching the styles of the Herbalife's new web platform, implementing pixel-perfect interfaces from designs in Figma.</li>
                         <li>Support Bug problem solving for new Herbalife project using React and microservices architecture.</li>
                     </ul>
                 </div>
