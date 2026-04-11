@@ -17,6 +17,7 @@ export const navbarLinks = [
     {
         id: 4,
         title: "Resume",
-        url: "#"
+        url: "/public/CV_ANDRES VALDEZ TIRADO.pdf",
+        isExternal: true
     },
 ]
