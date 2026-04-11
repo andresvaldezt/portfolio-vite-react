@@ -22,5 +22,8 @@ export {
     IconBrandGithub,
     IconBrandMysql,
     IconFlask,
-    IconBrandCSharp
+    IconBrandCSharp,
+    IconBrandVscode,
+    IconBrandWindows,
+    IconTerminal2
 } from "@tabler/icons-react"
