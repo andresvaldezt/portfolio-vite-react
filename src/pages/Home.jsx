@@ -17,20 +17,13 @@ export default function HomePage (){
                         About Me
                     </h2>
                     <p className='mb-4 light:text-black'>
-                        Computer Science Engineering graduated from Universidad Politécnica de Sinaloa with a deep
-                        passion for the IT ecosystem. Proficient in TypeScript and JavaScript (ES6+) with a strong focus on
-                        the React ecosystem and modern frontend architectures.
-                    </p>
-                    <p>
-                        I am dedicated to building responsive,
-                        high-performance web experiences while staying at the forefront of UI/UX trends and industry best
-                        practices. I also have some practical experience with backend technologies.
+                        Frontend Developer with 7+ years of experience building scalable, high-performance web platforms. Specialized in the React and TypeScript ecosystem, with a strong track record delivering pixel-perfect, responsive interfaces for global e-commerce platforms serving 100+ country markets. Experienced working in cross-functional agile teams, collaborating with design, backend, content, and business stakeholders. Proven ability to lead UI technical decisions, onboard junior developers, and manage release cycles with Azure DevOps.
                     </p>
                     <h3 className="flex items-center gap-2 text-2xl font-bold my-4">
                         <IconSchool stroke={2} size={32}/>
                         Education
                     </h3>
-                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>Computer Science Engineering at Universidad Politécnica de Sinaloa</h5>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>B.S. Computer Science Engineering at Universidad Politécnica de Sinaloa</h5>
                     <p className='light:text-gray-700 text-slate-300'>Sinaloa, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>2010 – 2014</p>
                     <h5 className="text-2xl font-bold flex items-center gap-2 mb-4 mt-4">
