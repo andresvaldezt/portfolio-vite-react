@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "position": "UI Developer",
+    "company": "e-Quality / TCS — Herbalife",
+    "location": "Guadalajara, Mexico",
+    "period": "April 2020 – June 2025",
+    "description": "Core member of the Root team for myHerbalife.com, a global e-commerce platform for independent distributors across 100+ countries.",
+    "achievements": [
+      "Developed and maintained UI components and widgets consuming internal APIs across 100+ country markets, ensuring consistent cross-browser rendering and responsive behavior.",
+      "Led pixel-perfect redesign of the Register, Login, and Profile flows to align with Herbalife's new brand platform, implementing designs from Figma with zero deviation from spec — affecting millions of active users.",
+      "Built an internal developer tool for myHerbalife.com to register and version-control development sessions across multiple environments, reducing release conflicts.",
+      "Collaborated weekly with content, design, backend, and business teams to deliver new web features on time, estimated effort and managed task prioritization.",
+      "Managed frontend release versions using Microsoft Azure services in close coordination with the DevOps team.",
+      "Provided technical onboarding and training to new team members, reducing ramp-up time.",
+      "Supported bug resolution for a new Herbalife project built on React and microservices architecture."
+    ]
+  },
+  {
+    "id": 2,
+    "position": "Full Stack Developer",
+    "company": "Hallmg Consulting",
+    "location": "Guadalajara, Mexico",
+    "period": "May 2018 – April 2020",
+    "description": "Built and maintained HR web systems for 10+ client companies across education, real estate, pharma, and energy sectors.",
+    "achievements": [
+      "Set up full-stack web projects from scratch using Laravel, PHP, MySQL, Git, and Webpack (Laravel Mix), managing server deployment via cPanel/Plesk.",
+      "Implemented responsive UIs with HTML5, CSS3, Bootstrap, and jQuery, ensuring cross-device compatibility for all client platforms.",
+      "Optimized web performance by minifying CSS/JS and implementing lazy loading, improving page load times.",
+      "Applied SEO best practices — sitemaps, keyword research, and meta optimization — for multiple client sites.",
+      "Partnered with design and business teams to translate UX/UI requirements into functional, intuitive interfaces."
+    ]
+  },
+  {
+    "id": 3,
+    "position": "Web Developer",
+    "company": "Tata Consultancy Services — General Electric",
+    "location": "Guadalajara, Mexico",
+    "period": "April 2015 – December 2017",
+    "description": "Developed and maintained internal web communities and tools for GE business units using Support Central CMS and custom development.",
+    "achievements": [
+      "Developed and maintained multiple web communities, forms, and data-reporting tools for internal GE business teams.",
+      "Held tri-weekly meetings with client stakeholders to gather requirements, assess risks, and report on development progress.",
+      "Wrote technical documentation and user guides for data report control tools, supported help desk teams.",
+      "Trained new team members on internal tools and development standards."
+    ]
+  }
+]
