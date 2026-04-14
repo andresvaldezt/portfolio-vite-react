@@ -4,7 +4,15 @@
 
 @layer base {
     html {
-        @apply scroll-smooth;
+        @apply scroll-smooth h-full;
+    }
+    
+    body {
+        @apply h-full;
+    }
+    
+    #root {
+        @apply h-full;
     }
 }
 

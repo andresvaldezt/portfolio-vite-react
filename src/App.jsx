@@ -11,12 +11,14 @@ function App() {
 
   return (
     <ThemeProvider>
-      <main className='bg-gray-800 light:bg-amber-50'>
+      <main className='flex flex-col min-h-screen bg-gray-800 light:bg-amber-50'>
         <Header></Header>
-        <Routes>
-          <Route path="/" element={ <HomePage/> } />
-          <Route path='*' element={ <NotFoundPage/> } />
-        </Routes>
+        <div className='flex-1'>
+          <Routes>
+            <Route path="/" element={ <HomePage/> } />
+            <Route path='*' element={ <NotFoundPage/> } />
+          </Routes>
+        </div>
         <Footer></Footer>
       </main>
     </ThemeProvider>
