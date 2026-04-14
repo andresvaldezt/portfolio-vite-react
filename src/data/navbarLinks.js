@@ -8,7 +8,7 @@ export const navbarLinks = [
     },
     {
         id: 2,
-        title: "Experiencie",
+        title: "Experience",
         url: "#experience"
     },
     {

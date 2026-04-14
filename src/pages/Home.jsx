@@ -2,6 +2,7 @@ import { IconSchool, IconId, IconMapPin, IconMail, IconLanguage, IconBrandGithub
 import flag  from '../assets/Flag_of_Mexico.svg.png'; 
 import {JobExperience} from '../components/JobExperience';
 import { Skills } from '../components/Skills';
+import Hero from "../components/Hero";
 
 
 export default function HomePage (){
@@ -10,7 +11,8 @@ export default function HomePage (){
     return (
     <main className="index-main" >
         <div className="flex flex-col gap-12 mx-auto px-4 py-6 sm:px-6 md:px-8 max-w-7xl">
-            <section id='about' className="scroll-mt-60 port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
+            <Hero />
+            <section id='about' className="scroll-mt-60 sm:scroll-mt-24 port-about flex flex-wrap lg:gap-6 pb-8 border-b light:border-b-gray-700/20 border-b-amber-50/20">
                 <div className="flex-none lg:w-8/12 w-full light:text-black">
                     <h2 className="flex items-center gap-2 text-4xl font-bold mb-4">
                         <IconId stroke={2} size={48}/>
