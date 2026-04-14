@@ -4,7 +4,7 @@ import skillsData from '../data/skillsData.json';
 
 export function Skills() {
     return (
-        <section id='skills' className='scroll-mt-60 mb-4 pb-4'>
+        <section id='skills' className='scroll-mt-24 mb-4 pb-4'>
             <header>
                 <h2 className="flex items-center gap-2 text-4xl font-bold mb-4 text-amber-50 light:text-gray-700">
                     <Icons.IconSettingsCode stroke={2} size={48}/>
