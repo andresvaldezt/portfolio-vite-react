@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "category": "Languages",
+    "skills": [
+      { "id": 1, "name": "TypeScript", "icon": "IconBrandTypescript" },
+      { "id": 2, "name": "JS ES6+", "icon": "IconBrandJavascript" },
+      { "id": 3, "name": "PHP Native", "icon": "IconBrandPhp" },
+      { "id": 4, "name": "HTML5", "icon": "IconBrandHtml5" },
+      { "id": 5, "name": "CSS3", "icon": "IconBrandCss3" }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Frameworks / Libraries",
+    "skills": [
+      { "id": 1, "name": "React", "icon": "IconBrandReact" },
+      { "id": 2, "name": "React Router", "icon": "IconBrandReact" },
+      { "id": 3, "name": "Node.js", "icon": "IconBrandNodejs" },
+      { "id": 4, "name": "Express.js", "icon": "IconBrandNodejs" },
+      { "id": 5, "name": "Laravel", "icon": "IconBrandLaravel" },
+      { "id": 6, "name": "Laravel Blade", "icon": "IconBrandLaravel" },
+      { "id": 7, "name": ".NET Razor", "icon": "IconBrandCSharp" }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Styling",
+    "skills": [
+      { "id": 1, "name": "SCSS/SASS", "icon": "IconBrandSass" },
+      { "id": 2, "name": "Bootstrap", "icon": "IconBrandBootstrap" },
+      { "id": 3, "name": "Tailwind CSS", "icon": "IconBrandTailwind" }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "State / Data",
+    "skills": [
+      { "id": 1, "name": "Zustand", "icon": "IconRoute" },
+      { "id": 2, "name": "Context API", "icon": "IconBrandReact" },
+      { "id": 3, "name": "JSON", "icon": "IconFileTypeJs" },
+      { "id": 4, "name": "AJAX", "icon": "IconFileTypeJs" },
+      { "id": 5, "name": "JQuery", "icon": "IconFileTypeJs" }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Testing",
+    "skills": [
+      { "id": 1, "name": "Playwright", "icon": "IconFlask" },
+      { "id": 2, "name": "Zod", "icon": "IconFlask" }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Tools",
+    "skills": [
+      { "id": 1, "name": "Git", "icon": "IconBrandGit" },
+      { "id": 2, "name": "GitHub", "icon": "IconBrandGithub" },
+      { "id": 3, "name": "Laravel Mix", "icon": "IconBrandLaravel" },
+      { "id": 4, "name": "Vite", "icon": "IconBrandVite" },
+      { "id": 5, "name": "VSCode", "icon": "IconBrandVscode" },
+      { "id": 6, "name": "PNPM", "icon": "IconBrandPnpm" },
+      { "id": 7, "name": "npm", "icon": "IconBrandNpm" },
+      { "id": 8, "name": "Windows", "icon": "IconBrandWindows" },
+      { "id": 9, "name": "Linux(CLI)", "icon": "IconTerminal2" }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Cloud",
+    "skills": [
+      { "id": 1, "name": "MSFT Azure", "icon": "IconBrandAzure" },
+      { "id": 2, "name": "Vercel", "icon": "IconBrandVercel" },
+      { "id": 3, "name": "Netlify", "icon": "IconCloud" }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Databases",
+    "skills": [
+      { "id": 1, "name": "MySQL", "icon": "IconBrandMysql" }
+    ]
+  }
+]
