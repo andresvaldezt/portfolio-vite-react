@@ -14,19 +14,81 @@ export function Skills(){
                     <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
                         <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
                             <h5 className="text-1/4 sm:text-lg text-black">
-                                <strong>Web Design</strong>
+                                <strong>Languages</strong>
                             </h5>
                         </div>
                         <div className="p-4 light:text-black">
                             <div className="flex flex-wrap gap-2">
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandTypescript stroke={2} />
+                                    <span>TypeScript</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandJavascript stroke={2} />
+                                    <span>JS ES6+</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandPhp stroke={2} />
+                                    <span>PHP Native</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandHtml5 stroke={2} />
-                                    <span>HTML</span>
+                                    <span>HTML5</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandCss3 stroke={2} />
-                                    <span>CSS</span>
+                                    <span>CSS3</span>
                                 </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
+                        <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
+                            <h5 className="text-1/4 sm:text-lg text-black">
+                                <strong>Frameworks / Libraries</strong>
+                            </h5>
+                        </div>
+                        <div className="p-4 light:text-black">
+                            <div className="flex flex-wrap gap-2">
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandReact stroke={2} />
+                                    <span>React</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandReact stroke={2} />
+                                    <span>React Router</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandNodejs stroke={2} />
+                                    <span>Node.js</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandNodejs stroke={2} />
+                                    <span>Express.js</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandLaravel stroke={2} />
+                                    <span>Laravel</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandLaravel stroke={2} />
+                                    <span>Laravel Blade</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandCSharp stroke={2} />
+                                    <span>.NET Razor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
+                        <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
+                            <h5 className="text-1/4 sm:text-lg text-black">
+                                <strong>Styling</strong>
+                            </h5>
+                        </div>
+                        <div className="p-4 light:text-black">
+                            <div className="flex flex-wrap gap-2">
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandSass stroke={2} />
                                     <span>SCSS/SASS</span>
@@ -45,46 +107,26 @@ export function Skills(){
                     <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
                         <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
                             <h5 className="text-1/4 sm:text-lg text-black">
-                                <strong>JavaScript</strong>
+                                <strong>State / Data</strong>
                             </h5>
                         </div>
                         <div className="p-4 light:text-black">
                             <div className="flex flex-wrap gap-2">
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandJavascript stroke={2} />
-                                    <span>ES6+</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandReact stroke={2} />
-                                    <span>React</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandReact stroke={2} />
-                                    <span>React Router</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconRoute stroke={2} />
                                     <span>Zustand</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandTypescript stroke={2} />
-                                    <span>TypeScript</span>
+                                    <Icons.IconBrandReact stroke={2} />
+                                    <span>Context API</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandNodejs stroke={2} />
-                                    <span>Node.js</span>
+                                    <Icons.IconFileTypeJs stroke={2} />
+                                    <span>JSON</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandNodejs stroke={2} />
-                                    <span>Express.js</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandPnpm stroke={2} />
-                                    <span>PNPM</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandNpm stroke={2} />
-                                    <span>npm</span>
+                                    <Icons.IconFileTypeJs stroke={2} />
+                                    <span>AJAX</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconFileTypeJs stroke={2} />
@@ -96,22 +138,65 @@ export function Skills(){
                     <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
                         <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
                             <h5 className="text-1/4 sm:text-lg text-black">
-                                <strong>PHP</strong>
+                                <strong>Testing</strong>
                             </h5>
                         </div>
                         <div className="p-4 light:text-black">
                             <div className="flex flex-wrap gap-2">
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandPhp stroke={2} />
-                                    <span>PHP Native</span>
+                                    <Icons.IconFlask stroke={2} />
+                                    <span>Playwright</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconFlask stroke={2} />
+                                    <span>Zod</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
+                        <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
+                            <h5 className="text-1/4 sm:text-lg text-black">
+                                <strong>Tools</strong>
+                            </h5>
+                        </div>
+                        <div className="p-4 light:text-black">
+                            <div className="flex flex-wrap gap-2">
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandGit stroke={2} />
+                                    <span>Git</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandGithub stroke={2} />
+                                    <span>GitHub</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandLaravel stroke={2} />
-                                    <span>Laravel</span>
+                                    <span>Laravel Mix</span>
                                 </div>
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandLaravel stroke={2} />
-                                    <span>Laravel Blade</span>
+                                    <Icons.IconBrandVite stroke={2} />
+                                    <span>Vite</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandVscode stroke={2} />
+                                    <span>VSCode</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandPnpm stroke={2} />
+                                    <span>PNPM</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandNpm stroke={2} />
+                                    <span>npm</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconBrandWindows stroke={2} />
+                                    <span>Windows</span>
+                                </div>
+                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
+                                    <Icons.IconTerminal2 stroke={2} />
+                                    <span>Linux(CLI)</span>
                                 </div>
                             </div>
                         </div>
@@ -142,46 +227,14 @@ export function Skills(){
                     <div className="rounded-md overflow-hidden bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]">
                         <div className="bg-amber-400 light:bg-purple-400 text-inverted text-center py-2">
                             <h5 className="text-1/4 sm:text-lg text-black">
-                                <strong>Other Tools</strong>
+                                <strong>Databases</strong>
                             </h5>
                         </div>
                         <div className="p-4 light:text-black">
                             <div className="flex flex-wrap gap-2">
                                 <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandGit stroke={2} />
-                                    <span>Git</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandGithub stroke={2} />
-                                    <span>GitHub</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
                                     <Icons.IconBrandMysql stroke={2} />
                                     <span>MySQL</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconFlask stroke={2} />
-                                    <span>Playwright</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconFlask stroke={2} />
-                                    <span>Zod</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandCSharp stroke={2} />
-                                    <span>Razor</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandVscode stroke={2} />
-                                    <span>VSCode</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconBrandWindows stroke={2} />
-                                    <span>Windows</span>
-                                </div>
-                                <div className="flex items-center gap-1 py-1 px-2 rounded-lg border">
-                                    <Icons.IconTerminal2 stroke={2} />
-                                    <span>Linux(basic command line)</span>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import cvPDF from '../assets/cv.pdf'
+import cvPDF from '../assets/CV_Andres_Valdez_Tirado.pdf'
 
 export const navbarLinks = [
     {

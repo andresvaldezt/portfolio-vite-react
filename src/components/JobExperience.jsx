@@ -10,7 +10,7 @@ export function JobExperience(){
                     </h2>
                 </header>
                 <div className='job grow flex flex-col rounded-md p-6 mb-6 bg-gray-600 light:bg-white light:shadow-[0px_4px_16px_rgb(0,0,0,0.2)] shadow-[0px_4px_16px_rgba(0,0,0,0.2)]'>
-                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>UI Developer | e-Quality / TCS — Herbalife (Consultant)</h5>
+                    <h5 className='font-medium text-lg sm:text-xl light:text-slate-700 text-slate-100'>UI Developer | e-Quality / TCS — Herbalife</h5>
                     <p className='light:text-gray-700 text-slate-300'>Guadalajara, Mexico</p>
                     <p className='light:text-gray-500 text-slate-400'>April 2020 – June 2025</p>
                     <p className='italic light:text-gray-700 text-slate-300'>Core member of the Root team for myHerbalife.com, a global e-commerce platform for independent distributors across 100+ countries.</p>
