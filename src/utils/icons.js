@@ -25,5 +25,6 @@ export {
     IconBrandCSharp,
     IconBrandVscode,
     IconBrandWindows,
-    IconTerminal2
+    IconTerminal2,
+    IconBrandVite
 } from "@tabler/icons-react"
